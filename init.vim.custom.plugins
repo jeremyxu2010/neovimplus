@@ -19,4 +19,9 @@
 " UnPlug 'chxuan/prepare-code'
 
 Plug 'skywind3000/asyncrun.vim'
+Plug 'chxuan/vimplus-startify'
 
+" ListToggle
+Plug 'Valloric/ListToggle'
+Plug 'voldikss/vim-floaterm'
+Plug 'liuchengxu/vista.vim'

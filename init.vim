@@ -126,7 +126,7 @@ command! -nargs=1 -bar UnPlug call s:deregister(<args>)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 插件列表
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'derekwyatt/vim-fswitch'  " .h和.c/.cc/.cpp文件切换
 Plug 'chxuan/vim-edit'  " 方便的文本编辑工具
@@ -179,7 +179,7 @@ runtime macros/matchit.vim
 nnoremap <leader>H :execute ":help " . expand("<cword>")<cr>
 
 " 查看neovimplus的help文件
-nnoremap <leader>h :view +let\ &l:modifiable=0 ~/.neovimplus/help.md<cr>
+nnoremap <leader>h :view +let\ &l:modifiable=0 $HOME/.config/nvim/help.md<cr>
 
 " 分屏窗口移动
 nnoremap <c-j> <c-w>j
