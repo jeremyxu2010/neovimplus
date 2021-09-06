@@ -25,3 +25,4 @@ Plug 'chxuan/vimplus-startify'
 Plug 'Valloric/ListToggle'
 Plug 'voldikss/vim-floaterm'
 Plug 'liuchengxu/vista.vim'
+" vim: set filetype=vim:
